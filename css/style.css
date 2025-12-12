@@ -6,10 +6,14 @@ body {
     color: #0a143a;
 }
 
-.header {
+.container {
     max-width: 1146px;
     margin: auto;
-    padding-top: 30px;
+}
+
+.header {
+    padding-block: 30px;
+    margin-bottom: 12px;
 }
 
 .navbar {
@@ -77,4 +81,116 @@ body {
     border: none;
     padding-left: 20px;
     padding-right: 17px;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 30px;
+}
+
+.card-image {
+    border-radius: 10px;
+    width: 264px;
+    height: 178px;
+    object-fit: cover;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 22px;
+
+}
+
+.card {
+    margin-bottom: 20px;
+    max-width: 264px;
+}
+
+.card-title {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #256eeb;
+
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like {
+    margin-left: 15px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.card-price {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0a143a;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #c4c4c4;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.sidebar .page-title {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.service {
+    margin-bottom: 25px;
+    max-width: 231px;
+}
+
+.service-title {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+.service-text {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 217px;
+}
+
+.footer-text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: underline;
+    color: #C4C4C4;
+    margin-bottom: 5px;
+}
+
+.footer-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.footer-link {
+    display: inline-block;
+    color: inherit;
+    text-decoration: none;
+    margin-bottom: 5px;
 }
